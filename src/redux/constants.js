@@ -1,0 +1,6 @@
+export const SET_SALES = 'SET_SALES';
+export const SET_IS_SALES_LOADED = 'SET_IS_SALES_LOADED';
+export const SET_IS_SALES_LOADING = 'SET_IS_SALES_LOADING';
+export const ADD_NEW_ORDER = 'ADD_NEW_ORDER';
+export const REMOVE_ORDER = 'REMOVE_ORDER';
+export const EDIT_ORDER = 'EDIT_ORDER';

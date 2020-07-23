@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "login": "login",
+    "name": "Viktor",
+    "role": "role",
+    "team": "Front-end"
+  }, 
+  {
+    "id": "2",
+    "login": "login-2",
+    "name": "Alexey",
+    "role": "role-3",
+    "team": "Back-end"
+  }, 
+  {
+    "id": "3",
+    "login": "login-3",
+    "name": "Viktor",
+    "role": "role-5",
+    "team": "Design"
+  }, 
+  {
+    "id": "4",
+    "login": "login-4",
+    "name": "Alexey",
+    "role": "role-2",
+    "team": "Front-end"
+  }
+]

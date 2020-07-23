@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "mounth": "Jan",
+    "applied": "70",
+    "left": "180"
+  }, 
+  {
+    "id": "2",
+    "mounth": "Feb",
+    "applied": "70",
+    "left": "120"
+  }, 
+  {
+    "id": "3",
+    "mounth": "Mar",
+    "applied": "70",
+    "left": "130"
+  }, 
+  {
+    "id": "4",
+    "mounth": "Apr",
+    "applied": "100",
+    "left": "120"
+  }, 
+  {
+    "id": "5",
+    "mounth": "May",
+    "applied": "100",
+    "left": "130"
+  }, 
+  {
+    "id": "6",
+    "mounth": "Jun",
+    "applied": "20",
+    "left": "10"
+  }, 
+  {
+    "id": "7",
+    "mounth": "Jul",
+    "applied": "120",
+    "left": "130"
+  }, 
+  {
+    "id": "8",
+    "mounth": "Aug",
+    "applied": "100",
+    "left": "130"
+  }, 
+  {
+    "id": "9",
+    "mounth": "Sep",
+    "applied": "60",
+    "left": "30"
+  }, 
+  {
+    "id": "10",
+    "mounth": "Oct",
+    "applied": "100",
+    "left": "130"
+  }, 
+  {
+    "id": "11",
+    "mounth": "Nov",
+    "applied": "100",
+    "left": "130"
+  }, 
+  {
+    "id": "12",
+    "mounth": "Dec",
+    "applied": "30",
+    "left": "10"
+  }
+]

@@ -1,0 +1,135 @@
+.bg_login {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.login-page {
+  height: 100vh;
+  position: relative;
+}
+
+.login-form {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 500px;
+  max-height: 500px;
+  padding: 4vw;
+  background: #fff;
+  box-shadow: 2px 3px 10px 0 rgba(119, 119, 119, 0.5);
+}
+
+.login-form label {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  color: #abafb3;
+}
+
+.login-form label p {
+  margin-bottom: 5px;
+}
+
+.login-form  #forgot {
+  display: none;
+}
+
+.login-form label select,
+.login-form label select option,
+.login-form label textarea,
+.login-form label input:not([type="submit"]) {
+  height: 50px;
+  border: 1px solid #dddef1;
+  width: 100%;
+  padding: 0 15px;
+  color: #000;
+ 
+}
+
+.login-form label select,
+.login-form label select option,
+.login-form label textarea,
+.login-form label input {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.login-form label textarea {
+  padding-top: 10px;
+  resize: none;
+}
+
+.login-form label input:not([type="submit"]):active,
+.login-form label input:not([type="submit"]):focus {
+  border: 1px solid rgb(143, 143, 143);
+}
+
+.login-form .keepme {
+  padding-left: 30px;
+  position: relative;
+}
+
+.login-form .keepme span {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+}
+
+.login-form .keepme:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dddef1;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.login-form #forgot:checked + .keepme:after {
+  content: url(../../img/check.svg);
+  position: absolute;
+  left: 4px;
+  top: 3px;
+}
+
+.login-button {
+  display: block;
+  background: #7f63f4;
+  border-color: #7f63f4;
+  cursor: pointer;
+  color: #fff;
+  max-width: 180px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  transition: 0.2s;
+  margin: 40px auto 0;
+}
+
+.login-button:hover {
+  background: #5833f1;
+  transition: 0.2s;
+}
+
+.login-form h4 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.login-form h4,
+.login-form .logo-login-form {
+  text-align: center;
+}
